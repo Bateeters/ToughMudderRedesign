@@ -44,7 +44,7 @@ header{
     margin-right: auto;
 }
 
-.mainNavBtn{
+.whiteBtn{
     border: 2px solid var(--tmOrange);
     border-radius: 5px;
     background-color: white;
@@ -113,7 +113,7 @@ main{
 }
 
 .heroTxt h1,
-.heroTxt p{
+.heroTxt h4{
     margin: 0;
 }
 
@@ -131,7 +131,7 @@ main{
     text-align: center;
     align-items: stretch;
     flex-direction: column;
-    margin: 20px 50px;
+    margin: 30px 70px;
     padding: 20px;
     background: url(../assets/calendarBackground.jpg) no-repeat center;
     background-size: cover;
@@ -147,10 +147,19 @@ main{
     padding: 0;
 }
 
+.calendar ul li {
+    padding: 3px;
+}
+
+.calendarBtn{
+    margin: 0 70px 5px;
+    padding: 10px 0;
+}
 
 footer{
     background-color: black;
     color: white;
+    height: 50px;
 
     display: flex;
     justify-content: center;
