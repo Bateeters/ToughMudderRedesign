@@ -1,0 +1,97 @@
+html{
+    --tmOrange: #ee702e;
+    --tmDarkGray: #7b7a7a;
+    --tmLightGray: #d4d3d3;
+    --tm5k: #d6e15b;
+    --tm10k: #efa040;
+    --tm15k: #df6335;
+    --tmKids: #65bede;
+    --tmInf: #692b7e;
+    --tmToughest: #00adb4;
+}
+
+body{
+    background-color: aquamarine;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom: 1px solid gray;
+
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+
+}
+
+#mainNav{
+    display: flex;
+    flex: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    padding: 0 15px;
+
+}
+
+#navLogo{
+    margin-right: auto;
+}
+
+.mainNavBtn{
+    border: 2px solid var(--tmOrange);
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    color: var(--tmOrange);
+    padding: 7px;
+}
+
+main{
+    background-color: white;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondaryNav{
+    padding:0 2px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondaryNavBtn,
+.selectedSecondaryNav,
+.nonSelectedSecondaryNav{
+    width: 33vw;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 1px solid white;
+}
+
+.selectedSecondaryNav{
+    background-color: var(--tmDarkGray);
+}
+
+.nonSelectedSecondaryNav{
+    background-color: var(--tmOrange);
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
