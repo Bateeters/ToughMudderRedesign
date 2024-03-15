@@ -1,5 +1,5 @@
 html{
-    font-family: sans-serif;
+    font-family: "Archivo Black", sans-serif;
     --tmOrange: #ee702e;
     --tmDarkGray: #7b7a7a;
     --tmLightGray: #d4d3d3;
@@ -97,7 +97,7 @@ main{
 
 .parallelogram{
     height: 60px;
-    width: 215px;
+    width: 245px;
     flex: auto;
     transform: skew(-20deg);
     background: var(--tmOrange);
@@ -133,7 +133,7 @@ main{
     margin: 0;
 }
 
-#calendar ul {
+ul {
     list-style-type: none;
     padding: 0;
 }
@@ -147,7 +147,7 @@ main{
     padding: 10px 0;
 }
 
-#regularSeries{
+.raceSeriesHeader{
     margin-top: 15px;
     text-align: center;
     color: var(--tmOrange);
@@ -158,6 +158,7 @@ main{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin: 30px 0 80px;
     gap: 50px;
 }
 
@@ -187,6 +188,14 @@ main{
     margin-right: auto;
 }
 
+.squareLogo{
+    padding-left: 15px;
+}
+
+.enduranceCardTxt{
+    padding-right: 30px;
+}
+
 .raceCardPricing{
     flex: 1;
     background-color: black;
@@ -214,9 +223,19 @@ main{
 footer{
     background-color: black;
     color: white;
-    height: 50px;
+    padding: 25px 5px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    padding:4px 0;
 }

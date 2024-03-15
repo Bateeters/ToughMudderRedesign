@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Tough Mudder Redesign</title>
@@ -47,7 +51,7 @@
             </ul>
             <button class="whiteBtn calendarBtn">See More</button>
         </div>
-        <div id="regularSeries">
+        <div class="raceSeriesHeader">
             <h1>Regular Race Series</h1>
             <div class="cardContainer">
                 <div class="raceCard">
@@ -56,11 +60,11 @@
                         <h4>3+ Miles<br>13 Obstacles</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $99/ea.</h2>
+                        <h2>STARTING AT: $99 / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ $11 Parking & Bag Drop Fee<br>Added at Checkout</p>
                         <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
+                        <p><strong>MILITARY & FIRST<br>RESPONDERS SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
                         <a href=""><button class="whiteBtn">Find Race</button></a>
@@ -73,11 +77,11 @@
                         <h4>6+ Miles<br>20 Obstacles</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $119/ea.</h2>
+                        <h2>STARTING AT: $119 / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ $11 Parking & Bag Drop Fee<br>Added at Checkout</p>
                         <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
+                        <p><strong>MILITARY & FIRST<br>RESPONDERS SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
                         <a href=""><button class="whiteBtn">Find Race</button></a>
@@ -90,11 +94,11 @@
                         <h4>9+ Miles<br>30 Obstacles</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $139/ea.</h2>
+                        <h2>STARTING AT: $139 / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ $11 Parking & Bag Drop Fee<br>Added at Checkout</p>
                         <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
+                        <p><strong>MILITARY & FIRST<br>RESPONDERS SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
                         <a href=""><button class="whiteBtn">Find Race</button></a>
@@ -107,11 +111,11 @@
                         <h4>ADVENTURE<br>INSPIRED</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $25/ea.</h2>
+                        <h2>STARTING AT: $25 / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ Includes 1 Spectator Pass<br>(For the Adult)</p>
                         <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
+                        <p><strong>MILITARY & FIRST<br>RESPONDERS SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
                         <a href=""><button class="whiteBtn">Find Race</button></a>
@@ -121,20 +125,18 @@
             </div>
 
         </div>
-        <div id="enduranceSeries">
-            <h1>Regular Race Series</h1>
+        <div class="raceSeriesHeader">
+            <h1>Endurance Race Series</h1>
             <div class="cardContainer">
                 <div class="raceCard">
                     <div class="raceCardHeader">
-                        <img src="./assets/tm5kLogo.jpg" alt="Tough Mudder 5k Logo" width="175px">
-                        <h4>3+ Miles<br>13 Obstacles</h4>
+                        <img src="./assets/tmInfLogo.jpg" alt="Tough Mudder Infinity Logo" width="175px">
+                        <h4>MULTIPLE<br>LAPS</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $99/ea.</h2>
+                        <h2>STARTING AT: $159 / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ $11 Parking & Bag Drop Fee<br>Added at Checkout</p>
-                        <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
                         <a href=""><button class="whiteBtn">Find Race</button></a>
@@ -143,15 +145,13 @@
                 </div>
                 <div class="raceCard">
                     <div class="raceCardHeader">
-                        <img src="./assets/tm10kLogo.jpg" alt="Tough Mudder 10k Logo" width="175px">
-                        <h4>6+ Miles<br>20 Obstacles</h4>
+                        <img class="squareLogo" src="./assets/tmToughestMudderLogo.jpg" alt="Toughest Mudder Logo" width="130px">
+                        <h4 class="enduranceCardTxt">OVERNIGHT<br>ADVENTURE</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $119/ea.</h2>
+                        <h2>STARTING AT: TBD / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ $11 Parking & Bag Drop Fee<br>Added at Checkout</p>
-                        <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
                         <a href=""><button class="whiteBtn">Find Race</button></a>
@@ -160,50 +160,74 @@
                 </div>
                 <div class="raceCard">
                     <div class="raceCardHeader">
-                        <img src="./assets/tm15kLogo.jpg" alt="Tough Mudder 15k Logo" width="175px">
-                        <h4>9+ Miles<br>30 Obstacles</h4>
+                        <img class="squareLogo" src="./assets/tmWTMLogo.jpg" alt="World's Toughest Mudder Logo" width="130px">
+                        <h4>WORLD'S FIRST<br>24 HOUR OCR<br>CHAMPIONSHIP</h4>
                     </div>
                     <div class="raceCardPricing">
-                        <h2>STARTING AT: $139/ea.</h2>
+                        <h2>STARTING AT: $509 / EA.</h2>
                         <p>+ Taxes & Fees</p>
                         <p>+ $11 Parking & Bag Drop Fee<br>Added at Checkout</p>
-                        <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
                     </div>
                     <div class="raceCardBtns">
-                        <a href=""><button class="whiteBtn">Find Race</button></a>
-                        <a href=""><button class="whiteBtn">Race Info</button></a>
-                    </div>
-                </div>
-                <div class="raceCard">
-                    <div class="raceCardHeader">
-                        <img src="./assets/tmKidsLogo.jpg" alt="Tough Mudder Kids Logo" width="175px">
-                        <h4>ADVENTURE<br>INSPIRED</h4>
-                    </div>
-                    <div class="raceCardPricing">
-                        <h2>STARTING AT: $25/ea.</h2>
-                        <p>+ Taxes & Fees</p>
-                        <p>+ Includes 1 Spectator Pass<br>(For the Adult)</p>
-                        <br>
-                        <p><strong>MILITARY & FIRST RESPONDERS<br>SAVE 25%</strong></p>
-                    </div>
-                    <div class="raceCardBtns">
-                        <a href=""><button class="whiteBtn">Find Race</button></a>
                         <a href=""><button class="whiteBtn">Race Info</button></a>
                     </div>
                 </div>
             </div>
-
         </div>
-        <div>
-            Spectator Pass
-            <div>
-                Spectator card
+        <div class="raceSeriesHeader">
+            <h1>Spectator Pass</h1>
+            <div class="cardContainer">
+                <div class="raceCard">
+                    <div class="raceCardHeader">
+                        <img src="./assets/tmSpectatorLogo.jpg" alt="Tough Mudder Spectator Logo" width="175px">
+                        <h4 style="padding-left: 12px;">MUDDER<br>VILLAGE PASS</h4>
+                    </div>
+                    <div class="raceCardPricing">
+                        <h2>STARTING AT: $15 / EA.</h2>
+                        <p>+ Taxes & Fees</p>
+                    </div>
+                    <div class="raceCardBtns">
+                        <a href=""><button class="whiteBtn">Find Race</button></a>
+                    </div>
+                </div>
             </div>
         </div>  
     </main>
     <footer>
-        <div>footer info</div>
+        <div class="footerBlock">
+            <h3>Connect</h3>
+            <ul>
+                <li><a href="">Partnership Inquiries</a></li>
+                <li><a href="">Licensing Opportunities</a></li>
+                <li><a href="">Media Requests</a></li>
+                <li><a href="">Host a Tough Mudder</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footerBlock">
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="">Endurance Results</a></li>
+                <li><a href="">100X Hall of Fame</a></li>
+                <li><a href="">Community Guidelines</a></li>
+                <li><a href="">Become an Ambassador</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footerBlock">
+            <h3>About</h3>
+            <ul>
+                <li><a href="">What is Tough Mudder?</a></li>
+                <li><a href="">TM in the News</a></li>
+                <li><a href="">Meet Our Partners</a></li>
+                <li><a href="">Join Our Team</a></li>
+                <li><a href="">Legal & Privacy Policies</a></li>
+            </ul>
+        </div>
+        <div class="socialMediaBlock">
+            <h3>Follow Us</h3>
+
+        </div>
     </footer>
   
 </body>
