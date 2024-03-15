@@ -68,11 +68,12 @@ main{
 .secondaryNavBtn,
 .selectedSecondaryNav,
 .nonSelectedSecondaryNav{
+    font-family: "Archivo Black", sans-serif;
     width: 33vw;
     height: 50px;
     color: white;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: 1em;
     border: 1px solid white;
 }
 
@@ -143,7 +144,7 @@ ul {
 }
 
 .calendarBtn{
-    margin: 0 70px 5px;
+    margin: 0 50px 5px;
     padding: 10px 0;
 }
 
@@ -223,12 +224,13 @@ ul {
 footer{
     background-color: black;
     color: white;
-    padding: 25px 5px;
+    padding: 25px 50px;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 footer a{
@@ -238,4 +240,18 @@ footer a{
 
 footer li{
     padding:4px 0;
+}
+
+.footerBlock{
+
+}
+
+.socialMediaBlock{
+    padding-bottom: 50px;
+}
+
+.socialMediaBlock img{
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid white;
 }
