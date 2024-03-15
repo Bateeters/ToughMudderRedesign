@@ -55,6 +55,12 @@ header{
     }
 }
 
+.whiteBtn:hover{
+    border-color: var(--tmOrange);
+    background-color: var(--tmOrange);
+    color: white;
+}
+
 main{
     background-color: white;
     padding-top: 70px;
@@ -93,6 +99,11 @@ main{
 
 .nonSelectedSecondaryNav{
     background-color: var(--tmOrange);
+}
+
+.nonSelectedSecondaryNav:hover{
+    background-color: var(--tmLightGray);
+    color: var(--tmDarkGray);
 }
 
 #hero{
@@ -171,8 +182,17 @@ ul {
     padding: 0;
 }
 
-#calendar ul li {
+#calendar ul li{
     padding: 12px;
+}
+
+#calendar a{
+    text-decoration: none;
+    color: white;
+}
+
+#calendar a:hover{
+    color: var(--tmOrange);
 }
 
 .calendarBtn{
@@ -277,6 +297,10 @@ footer a{
     color: white;
 }
 
+footer a:hover{
+    color: var(--tmOrange);
+}
+
 footer li{
     padding: 12px 0;
 }
@@ -293,4 +317,9 @@ footer h3{
     background-color: white;
     border-radius: 50px;
     border: 1px solid white;
+}
+
+.socialMediaBlock img:hover{
+    background-color: var(--tmOrange);
+    border-color: var(--tmOrange);
 }
