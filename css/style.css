@@ -12,6 +12,7 @@ html{
 }
 
 body{
+    background-color: black;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -49,6 +50,9 @@ header{
     font-size: 1em;
     color: var(--tmOrange);
     padding: 7px;
+    @media screen and (min-width:480px){
+        font-size: 1.2em;
+    }
 }
 
 main{
@@ -75,6 +79,12 @@ main{
     font-weight: 700;
     font-size: 1em;
     border: 1px solid white;
+    @media screen and (min-width:480px){
+        font-size: 1.2em;
+    }
+    @media screen and (min-width:800px){
+        font-size: 1.7em;
+    }
 }
 
 .selectedSecondaryNav{
@@ -94,6 +104,12 @@ main{
     height: 45vh;
     background: url(../assets/wellSwung.jpg) no-repeat center;
     background-size: cover;
+    @media screen and (min-width:600px){
+        height: 60vh;
+    }
+    @media screen and (min-width:1199px){
+        height: 70vh;
+    }
 }
 
 .parallelogram{
@@ -103,12 +119,23 @@ main{
     transform: skew(-20deg);
     background: var(--tmOrange);
     z-index: 0;
+    @media screen and (min-width:800px){
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: 345px;
+        height: 82px;
+    }
 }
 
 .heroTxt{
     color: white;
     z-index: 1;
     position: absolute;
+    @media screen and (min-width:800px){
+        margin-left: 30px;
+        margin-bottom: 30px;
+        font-size: 1.4em;
+    }
 }
 
 .heroTxt h1,
@@ -127,6 +154,11 @@ main{
     padding: 20px;
     background: url(../assets/calendarBackground.jpg) no-repeat center;
     background-size: cover;
+    @media screen and (min-width:600px){
+        width: 350px;
+        margin: 30px auto ;
+        font-size: 1.2em;
+    }
 }
 
 #calendar h1 {
@@ -140,7 +172,7 @@ ul {
 }
 
 #calendar ul li {
-    padding: 3px;
+    padding: 12px;
 }
 
 .calendarBtn{
@@ -164,6 +196,7 @@ ul {
 }
 
 .raceCard{
+    height: 500px;
     width: 350px;
     background-color: white;
     display: flex;
@@ -189,16 +222,12 @@ ul {
     margin-right: auto;
 }
 
-.squareLogo{
-    padding-left: 15px;
-}
-
-.enduranceCardTxt{
-    padding-right: 30px;
-}
-
 .raceCardPricing{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     color: white;
     padding: 10px 10px 20px;
@@ -221,6 +250,16 @@ ul {
     padding: 15px 20px;
 }
 
+.squareLogo{
+    padding-left: 15px;
+}
+
+
+
+.enduranceCardTxt{
+    padding-right: 30px;
+}
+
 footer{
     background-color: black;
     color: white;
@@ -229,7 +268,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 40px;
 }
 
@@ -239,11 +278,11 @@ footer a{
 }
 
 footer li{
-    padding:4px 0;
+    padding: 12px 0;
 }
 
-.footerBlock{
-
+footer h3{
+    border-bottom: 2px solid var(--tmOrange);
 }
 
 .socialMediaBlock{
